@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  html,
+  body {
+    position: relative;
+  }
+  
+  body {
+    overflow-y: auto;
+    min-height: 100vh;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  footer {
+    background: #f1f1f1;
+    width: 100%;
+    padding: 16px 0px;
+    color: #999;
+    vertical-align: bottom;
+    margin-top: 40px;
+    width: 100%; 
+     height: 2.5rem;   
+  }
+  
+  .banner {
+    height: 500px;
+    width: 100%;
+    background: #999;
+    margin: 20px 0px;
+  }
+  
+  .content {
+    padding: 60px 120px;
+    /*display: flex; */
+    /* flex-wrap: wrap; */
+  }
+
+  /* Layout page CSS */
+  
+  
+  .tile {
+    
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+  
+  }
+  .tile img {
+    
+    height: 42vh;
+      width: 34vh;
+      margin: 13px;
+      background-position: center;
+      border-radius: 5px;
+      object-fit: cover;
+  }
+  .tile img:hover {
+   
+    filter: blur(3px);
+    transform: rotate(8deg);
+  }
+  
+ 
+  .tile-text { 
+    position: absolute;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .hero-image {
+  
+    background-image: linear-gradient(rgba(66, 58, 58, 0.397), rgba(102, 95, 95, 0.473)),
+      url("/assets/hero.jpg");
+  
+    
+    width: 100%;
+    height: 77vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-subheading  {
+    color: #f1f1f1;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    /*text-decoration: underline rgba(214, 200, 200, 0.699) dashed;*/
+  }
+  .small{
+    font-size: 14px;
+  }
+  .hero-input input{
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 13, 13, 0.534);
+    font-size: small;
+  }
+  
+  .nav-link {
+    margin-right: 36px;
+  }
+  /*
+  /* grid page CSS 
+ 
+  .card {
+    
+   justify-content: space-around;
+   display: flex;
+   padding: 10px;
+   margin-bottom: 4px;
+  }
+  . card img {
+    
+    object-fit: cover;
+    height: 40vh;
+    width: 30vh;
+    border-radius: 5px;
+    background-position: center;
+  }
+  .card img:hover {
+    
+    filter: brightness(60%);
+    cursor: pointer;
+    
+  }*/
+  
+  
+  /* details page CSS 
+  
+  
+  .detail-card {
+    
+    padding: 2px;
+    margin: 1px;
+    border: 1px hidden rgba(209, 200, 200, 0.911) ;
+    display: grid;
+    
+   // grid-template-rows: 30% 70%;
+    //grid-template-columns: 70% 30%;
+  }
+  
+  .detail-card img {
+
+    padding: 3px;
+    margin: 1px;
+   height: 30vh;
+   width: 20vh;
+   object-fit: cover;
+   background-position: center;
+   border-radius: 7px;
+   }
+  
+  .detail-card img:hover 
+  {
+    
+    filter: brightness(60%);
+    cursor: pointer;
+  }
+  .experience-content ul li {
+    margin-left: 16px;
+    padding: 0;
+  }*/
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktops phones: */
+    #reservation {
+      width: 400px;
+      position: fixed;
+    }
+  }
+  .headpanch{
+    position: relative;
+    left: 20px;
+  }
+  
